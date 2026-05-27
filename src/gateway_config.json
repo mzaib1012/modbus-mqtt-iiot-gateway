@@ -1,0 +1,34 @@
+{
+  "modbus": {
+    "host": "127.0.0.1",
+    "port": 5020,
+    "slave_id": 1,
+    "polling_interval_seconds": 2,
+    "registers": [
+      {
+        "address": 1,
+        "name": "temperature_celsius",
+        "scale": 0.1,
+        "description": "Primary transformer hot-spot temperature sensor"
+      },
+      {
+        "address": 2,
+        "name": "grid_voltage_v",
+        "scale": 1.0,
+        "description": "Incoming phase-to-neutral utility line voltage"
+      },
+      {
+        "address": 3,
+        "name": "load_power_w",
+        "scale": 1.0,
+        "description": "Active power draw from industrial motor load"
+      }
+    ]
+  },
+  "mqtt": {
+    "broker": "broker.hivemq.com",
+    "port": 1883,
+    "base_topic": "factory/iiot/gateway_01/telemetry",
+    "client_id": "iiot_edge_gateway_v1"
+  }
+}
