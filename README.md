@@ -133,6 +133,7 @@ iiot-edge-data-gateway/
 │   └── gateway_config.json               # Decoupled register-to-cloud topology mapping configuration
 ├── Dockerfile                            # Multi-stage lightweight deployment container manifest
 ├── requirements.txt                      # Minimum explicit system dependency references
+├── server_runtime.log
 └── README.md                             # Comprehensive technical engineering blueprint
 
 ```
