@@ -1,4 +1,4 @@
-### Custom Bit-Level IIoT Edge Data Gateway
+## Custom Bit-Level IIoT Edge Data Gateway
 
 An ultra-lightweight, containerized Industrial Internet of Things (IIoT) edge gateway engine written in pure Python. This engine establishes low-level socket connections to poll legacy industrial Modbus TCP devices, performs runtime engineering-unit serialization, and streams structured, decoupled JSON payloads out to cloud-based MQTT infrastructure.
 
